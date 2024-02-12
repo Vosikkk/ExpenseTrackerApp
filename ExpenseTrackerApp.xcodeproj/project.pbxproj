@@ -23,6 +23,10 @@
 		380F5FC72B799C5F00B33996 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380F5FC62B799C5F00B33996 /* Settings.swift */; };
 		383813772B7A489800C54633 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383813762B7A489800C54633 /* View+Extensions.swift */; };
 		383813792B7A510B00C54633 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383813782B7A510B00C54633 /* Date+Extensions.swift */; };
+		3838137E2B7AB9A500C54633 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838137D2B7AB9A500C54633 /* CardView.swift */; };
+		383813802B7AC4E600C54633 /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838137F2B7AC4E600C54633 /* TransactionCardView.swift */; };
+		383813822B7AC99E00C54633 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383813812B7AC99E00C54633 /* SwipeAction.swift */; };
+		383813842B7ADA3F00C54633 /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383813832B7ADA3F00C54633 /* DateFilterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,10 @@
 		380F5FC62B799C5F00B33996 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		383813762B7A489800C54633 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		383813782B7A510B00C54633 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		3838137D2B7AB9A500C54633 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3838137F2B7AC4E600C54633 /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
+		383813812B7AC99E00C54633 /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
+		383813832B7ADA3F00C54633 /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		380F5FB02B798B0300B33996 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3838137C2B7AB99700C54633 /* Helpers */,
 				380F5FBF2B799C1200B33996 /* TableViews */,
 				380F5FB22B798B2E00B33996 /* IntroScreen.swift */,
 			);
@@ -133,6 +142,17 @@
 				380F5FC62B799C5F00B33996 /* Settings.swift */,
 			);
 			path = TableViews;
+			sourceTree = "<group>";
+		};
+		3838137C2B7AB99700C54633 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3838137D2B7AB9A500C54633 /* CardView.swift */,
+				3838137F2B7AC4E600C54633 /* TransactionCardView.swift */,
+				383813812B7AC99E00C54633 /* SwipeAction.swift */,
+				383813832B7ADA3F00C54633 /* DateFilterView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,8 +227,11 @@
 			files = (
 				380F5FBE2B799A3D00B33996 /* TintColor.swift in Sources */,
 				380F5FC12B799C2A00B33996 /* Recents.swift in Sources */,
+				383813842B7ADA3F00C54633 /* DateFilterView.swift in Sources */,
 				380F5FBC2B79998B00B33996 /* Transaction.swift in Sources */,
 				380F5FA52B798A9300B33996 /* ContentView.swift in Sources */,
+				3838137E2B7AB9A500C54633 /* CardView.swift in Sources */,
+				383813822B7AC99E00C54633 /* SwipeAction.swift in Sources */,
 				380F5FB32B798B2E00B33996 /* IntroScreen.swift in Sources */,
 				380F5FB82B79901A00B33996 /* Tab.swift in Sources */,
 				380F5FC72B799C5F00B33996 /* Settings.swift in Sources */,
@@ -219,6 +242,7 @@
 				380F5FB62B798CDF00B33996 /* Constants.swift in Sources */,
 				380F5FC52B799C4F00B33996 /* Graphs.swift in Sources */,
 				380F5FBA2B79993D00B33996 /* Category.swift in Sources */,
+				383813802B7AC4E600C54633 /* TransactionCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

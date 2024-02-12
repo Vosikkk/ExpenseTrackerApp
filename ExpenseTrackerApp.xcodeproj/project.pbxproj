@@ -13,6 +13,7 @@
 		380F5FAA2B798A9500B33996 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380F5FA92B798A9500B33996 /* Preview Assets.xcassets */; };
 		380F5FB32B798B2E00B33996 /* IntroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380F5FB22B798B2E00B33996 /* IntroScreen.swift */; };
 		380F5FB62B798CDF00B33996 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380F5FB52B798CDF00B33996 /* Constants.swift */; };
+		380F5FB82B79901A00B33996 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380F5FB72B79901A00B33996 /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		380F5FA92B798A9500B33996 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		380F5FB22B798B2E00B33996 /* IntroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreen.swift; sourceTree = "<group>"; };
 		380F5FB52B798CDF00B33996 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		380F5FB72B79901A00B33996 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		380F5FB12B798B1300B33996 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				380F5FB72B79901A00B33996 /* Tab.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			files = (
 				380F5FA52B798A9300B33996 /* ContentView.swift in Sources */,
 				380F5FB32B798B2E00B33996 /* IntroScreen.swift in Sources */,
+				380F5FB82B79901A00B33996 /* Tab.swift in Sources */,
 				380F5FA32B798A9300B33996 /* ExpenseTrackerAppApp.swift in Sources */,
 				380F5FB62B798CDF00B33996 /* Constants.swift in Sources */,
 			);

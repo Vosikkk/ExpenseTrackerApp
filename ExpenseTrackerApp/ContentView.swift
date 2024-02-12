@@ -8,14 +8,43 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    /// - Intro Visibility Status
+    @AppStorage("isFirstTime") private var isFirstTime: Bool = true
+    
+    /// Active Tab
+    @State private var activeTab: Tab = .recents
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView(selection: $activeTab) {
+            
+            makeTab(withName: "Recents", tag: .recents) {
+                Tab.recents.tabContent
+            }
+            
+            makeTab(withName: "Search", tag: .search) {
+                Tab.search.tabContent
+            }
+            
+            makeTab(withName: "Chart", tag: .charts) {
+                Tab.charts.tabContent
+            }
+            
+            makeTab(withName: "Settings", tag: .settings) {
+                Tab.settings.tabContent
+            }
         }
-        .padding()
+        .tint(appTint)
+        .sheet(isPresented: $isFirstTime) {
+            IntroScreen()
+                .interactiveDismissDisabled()
+        }
+    }
+    
+    func makeTab(withName name: String, tag: Tab, item: () -> some View) -> some View {
+        Text(name)
+            .tag(tag)
+            .tabItem { item() }
     }
 }
 

@@ -21,6 +21,8 @@
 		380F5FC32B799C3B00B33996 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380F5FC22B799C3B00B33996 /* Search.swift */; };
 		380F5FC52B799C4F00B33996 /* Graphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380F5FC42B799C4F00B33996 /* Graphs.swift */; };
 		380F5FC72B799C5F00B33996 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380F5FC62B799C5F00B33996 /* Settings.swift */; };
+		383813772B7A489800C54633 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383813762B7A489800C54633 /* View+Extensions.swift */; };
+		383813792B7A510B00C54633 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383813782B7A510B00C54633 /* Date+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		380F5FC22B799C3B00B33996 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		380F5FC42B799C4F00B33996 /* Graphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphs.swift; sourceTree = "<group>"; };
 		380F5FC62B799C5F00B33996 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		383813762B7A489800C54633 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		383813782B7A510B00C54633 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				380F5FB52B798CDF00B33996 /* Constants.swift */,
+				383813762B7A489800C54633 /* View+Extensions.swift */,
+				383813782B7A510B00C54633 /* Date+Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -208,6 +214,8 @@
 				380F5FC72B799C5F00B33996 /* Settings.swift in Sources */,
 				380F5FA32B798A9300B33996 /* ExpenseTrackerAppApp.swift in Sources */,
 				380F5FC32B799C3B00B33996 /* Search.swift in Sources */,
+				383813792B7A510B00C54633 /* Date+Extensions.swift in Sources */,
+				383813772B7A489800C54633 /* View+Extensions.swift in Sources */,
 				380F5FB62B798CDF00B33996 /* Constants.swift in Sources */,
 				380F5FC52B799C4F00B33996 /* Graphs.swift in Sources */,
 				380F5FBA2B79993D00B33996 /* Category.swift in Sources */,

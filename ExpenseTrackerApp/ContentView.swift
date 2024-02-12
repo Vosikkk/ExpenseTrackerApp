@@ -18,19 +18,19 @@ struct ContentView: View {
     var body: some View {
         TabView(selection: $activeTab) {
             
-            makeTab(withName: "Recents", tag: .recents) {
+            makeTab(for: Recents(), tag: .recents) {
                 Tab.recents.tabContent
             }
             
-            makeTab(withName: "Search", tag: .search) {
+            makeTab(for: Search(), tag: .search) {
                 Tab.search.tabContent
             }
             
-            makeTab(withName: "Chart", tag: .charts) {
+            makeTab(for: Graphs(), tag: .charts) {
                 Tab.charts.tabContent
             }
             
-            makeTab(withName: "Settings", tag: .settings) {
+            makeTab(for: Settings(), tag: .settings) {
                 Tab.settings.tabContent
             }
         }
@@ -41,8 +41,9 @@ struct ContentView: View {
         }
     }
     
-    func makeTab(withName name: String, tag: Tab, item: () -> some View) -> some View {
-        Text(name)
+    
+    func makeTab(for view: some View, tag: Tab, item: () -> some View) -> some View {
+        view
             .tag(tag)
             .tabItem { item() }
     }

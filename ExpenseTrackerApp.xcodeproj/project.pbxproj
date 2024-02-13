@@ -27,6 +27,7 @@
 		383813802B7AC4E600C54633 /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838137F2B7AC4E600C54633 /* TransactionCardView.swift */; };
 		383813822B7AC99E00C54633 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383813812B7AC99E00C54633 /* SwipeAction.swift */; };
 		383813842B7ADA3F00C54633 /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383813832B7ADA3F00C54633 /* DateFilterView.swift */; };
+		38672E082B7BE8B70000EB2F /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38672E072B7BE8B70000EB2F /* LockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		3838137F2B7AC4E600C54633 /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
 		383813812B7AC99E00C54633 /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
 		383813832B7ADA3F00C54633 /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
+		38672E072B7BE8B70000EB2F /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				3838137F2B7AC4E600C54633 /* TransactionCardView.swift */,
 				383813812B7AC99E00C54633 /* SwipeAction.swift */,
 				383813832B7ADA3F00C54633 /* DateFilterView.swift */,
+				38672E072B7BE8B70000EB2F /* LockView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				380F5FC32B799C3B00B33996 /* Search.swift in Sources */,
 				383813792B7A510B00C54633 /* Date+Extensions.swift in Sources */,
 				383813772B7A489800C54633 /* View+Extensions.swift in Sources */,
+				38672E082B7BE8B70000EB2F /* LockView.swift in Sources */,
 				380F5FB62B798CDF00B33996 /* Constants.swift in Sources */,
 				380F5FC52B799C4F00B33996 /* Graphs.swift in Sources */,
 				380F5FBA2B79993D00B33996 /* Category.swift in Sources */,

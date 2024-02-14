@@ -28,7 +28,7 @@
 		383813822B7AC99E00C54633 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383813812B7AC99E00C54633 /* SwipeAction.swift */; };
 		383813842B7ADA3F00C54633 /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383813832B7ADA3F00C54633 /* DateFilterView.swift */; };
 		38672E082B7BE8B70000EB2F /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38672E072B7BE8B70000EB2F /* LockView.swift */; };
-		38672E0A2B7C27950000EB2F /* NewExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38672E092B7C27950000EB2F /* NewExpenseView.swift */; };
+		38672E0A2B7C27950000EB2F /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38672E092B7C27950000EB2F /* TransactionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +54,7 @@
 		383813812B7AC99E00C54633 /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
 		383813832B7ADA3F00C54633 /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
 		38672E072B7BE8B70000EB2F /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
-		38672E092B7C27950000EB2F /* NewExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExpenseView.swift; sourceTree = "<group>"; };
+		38672E092B7C27950000EB2F /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +112,7 @@
 				3838137C2B7AB99700C54633 /* Helpers */,
 				380F5FBF2B799C1200B33996 /* TableViews */,
 				380F5FB22B798B2E00B33996 /* IntroScreen.swift */,
-				38672E092B7C27950000EB2F /* NewExpenseView.swift */,
+				38672E092B7C27950000EB2F /* TransactionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -239,7 +239,7 @@
 				3838137E2B7AB9A500C54633 /* CardView.swift in Sources */,
 				383813822B7AC99E00C54633 /* SwipeAction.swift in Sources */,
 				380F5FB32B798B2E00B33996 /* IntroScreen.swift in Sources */,
-				38672E0A2B7C27950000EB2F /* NewExpenseView.swift in Sources */,
+				38672E0A2B7C27950000EB2F /* TransactionView.swift in Sources */,
 				380F5FB82B79901A00B33996 /* Tab.swift in Sources */,
 				380F5FC72B799C5F00B33996 /* Settings.swift in Sources */,
 				380F5FA32B798A9300B33996 /* ExpenseTrackerAppApp.swift in Sources */,

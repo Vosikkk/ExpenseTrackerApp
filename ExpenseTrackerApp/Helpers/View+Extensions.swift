@@ -37,10 +37,15 @@ extension View {
     
     func currencyString(_ value: Double, allowedDigits: Int = 2) -> String {
         let formatter = NumberFormatter()
-        formatter.locale = Locale(identifier: "en_US")
+       // formatter.locale = Locale(identifier: "en_US")
         formatter.numberStyle = .currency
         formatter.maximumFractionDigits = allowedDigits
         
         return formatter.string(from: .init(value: value)) ?? ""
+    }
+    
+    var currencySymbol: String {
+        let locale = Locale.current
+        return locale.currencySymbol ?? ""
     }
 }

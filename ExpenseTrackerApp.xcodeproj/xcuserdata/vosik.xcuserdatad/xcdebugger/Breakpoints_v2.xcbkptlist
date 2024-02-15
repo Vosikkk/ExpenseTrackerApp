@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C83C715A-19ED-4B9F-9BFD-B84FD78C688D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08751159-4897-41B5-8975-31EDC29FFA2D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExpenseTrackerApp/View/TransactionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "08751159-4897-41B5-8975-31EDC29FFA2D - 13c03ab9306487e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in ExpenseTrackerApp.TransactionView.body.getter : some"
+                  moduleName = "ExpenseTrackerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vosik/SwiftUI/ExpenseTrackerApp/ExpenseTrackerApp/View/TransactionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "08751159-4897-41B5-8975-31EDC29FFA2D - 13c03ab930648788"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in ExpenseTrackerApp.TransactionView.body.getter : some"
+                  moduleName = "ExpenseTrackerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vosik/SwiftUI/ExpenseTrackerApp/ExpenseTrackerApp/View/TransactionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "440">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7046A547-6B33-4DDE-BC47-180E291D2694"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExpenseTrackerApp/View/TransactionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1A75732-3A95-46D8-97B9-2EB74CDC5A72"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExpenseTrackerApp/View/TransactionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9E488C6-4E17-49D5-B59E-41F34F90A22B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExpenseTrackerApp/View/TransactionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "A9E488C6-4E17-49D5-B59E-41F34F90A22B - 99573aafc9abdcfb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExpenseTrackerApp.TransactionView.body.getter : some"
+                  moduleName = "ExpenseTrackerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vosik/SwiftUI/ExpenseTrackerApp/ExpenseTrackerApp/View/TransactionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "2192">
+               </Location>
+               <Location
+                  uuid = "A9E488C6-4E17-49D5-B59E-41F34F90A22B - 13c03ab930648788"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in ExpenseTrackerApp.TransactionView.body.getter : some"
+                  moduleName = "ExpenseTrackerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vosik/SwiftUI/ExpenseTrackerApp/ExpenseTrackerApp/View/TransactionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "440">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D20927C1-033B-4016-8AD4-5456E618C3BB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExpenseTrackerApp/View/TransactionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "TransactionView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "D20927C1-033B-4016-8AD4-5456E618C3BB - e44e953b5bfda145"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of ExpenseTrackerApp.TransactionView.tint : ExpenseTrackerApp.TintColor"
+                  moduleName = "ExpenseTrackerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vosik/SwiftUI/ExpenseTrackerApp/ExpenseTrackerApp/View/TransactionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "D20927C1-033B-4016-8AD4-5456E618C3BB - 7a701381f9579740"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExpenseTrackerApp.TransactionView.tint.getter : ExpenseTrackerApp.TintColor"
+                  moduleName = "ExpenseTrackerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vosik/SwiftUI/ExpenseTrackerApp/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "D20927C1-033B-4016-8AD4-5456E618C3BB - e7e9ad0fd45d934c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExpenseTrackerApp.TransactionView.tint.setter : ExpenseTrackerApp.TintColor"
+                  moduleName = "ExpenseTrackerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vosik/SwiftUI/ExpenseTrackerApp/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "D20927C1-033B-4016-8AD4-5456E618C3BB - 7277b09458d1065d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExpenseTrackerApp.TransactionView.tint.modify : ExpenseTrackerApp.TintColor"
+                  moduleName = "ExpenseTrackerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vosik/SwiftUI/ExpenseTrackerApp/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "D20927C1-033B-4016-8AD4-5456E618C3BB - 18ac4f420f1a2c72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExpenseTrackerApp.TransactionView.tint.modify : ExpenseTrackerApp.TintColor with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ExpenseTrackerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vosik/SwiftUI/ExpenseTrackerApp/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "D20927C1-033B-4016-8AD4-5456E618C3BB - c7fd58bdd715f04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExpenseTrackerApp.TransactionView.$tint.getter : SwiftUI.Binding&lt;ExpenseTrackerApp.TintColor&gt;"
+                  moduleName = "ExpenseTrackerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vosik/SwiftUI/ExpenseTrackerApp/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "D20927C1-033B-4016-8AD4-5456E618C3BB - 53e4877e237bc72e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 1 of ExpenseTrackerApp.TransactionView.init(editTransaction: Swift.Optional&lt;ExpenseTrackerApp.Transaction&gt;, tint: ExpenseTrackerApp.TintColor) -&gt; ExpenseTrackerApp.TransactionView"
+                  moduleName = "ExpenseTrackerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vosik/SwiftUI/ExpenseTrackerApp/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

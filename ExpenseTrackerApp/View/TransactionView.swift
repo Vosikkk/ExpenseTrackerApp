@@ -1,5 +1,5 @@
 //
-//  NewExpenseView.swift
+//  TransactionView.swift
 //  ExpenseTrackerApp
 //
 //  Created by Саша Восколович on 14.02.2024.
@@ -41,6 +41,7 @@ struct TransactionView: View {
                     category: category,
                     tintColor: tint)
                 )
+    
                 CustomSection("Title", "Magic Keyboard", value: $title)
                 
                 CustomSection("Remarks", "Apple Product!", value: $remarks)
@@ -94,7 +95,7 @@ struct TransactionView: View {
             }
         }
         .onAppear {
-            if let editTransaction {
+            if let editTransaction  {
                 /// Load All Existing Data from the Transaction
                 title = editTransaction.title
                 remarks = editTransaction.remarks

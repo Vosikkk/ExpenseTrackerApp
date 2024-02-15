@@ -20,7 +20,7 @@ struct SwipeAction<Content: View>: View {
     @Environment(\.colorScheme) private var scheme
     
   
-    let viewID = UUID()
+    let viewID = "CONTENTVIEW"
     
     var body: some View {
         ScrollViewReader { scrollProxy in
@@ -32,7 +32,7 @@ struct SwipeAction<Content: View>: View {
                         .containerRelativeFrame(.horizontal)
                         .background(scheme == .dark ? .black : .white)
                         .background {
-                            if let firstAction = actions.first {
+                            if let firstAction = filteredActions.first {
                                 Rectangle()
                                     .fill(firstAction.tint)
                                     .opacity(scrollOffset == .zero ? 0 : 1)
@@ -68,7 +68,7 @@ struct SwipeAction<Content: View>: View {
             .scrollIndicators(.hidden)
             .scrollTargetBehavior(.viewAligned)
             .background {
-                if let lastAction = actions.last {
+                if let lastAction = filteredActions.last {
                     Rectangle()
                         .fill(lastAction.tint)
                         .opacity(scrollOffset == .zero ? 0 : 1)
@@ -86,10 +86,10 @@ struct SwipeAction<Content: View>: View {
     func ActionButtons(resetPosition: @escaping () -> ()) -> some View {
         Rectangle()
             .fill(.clear)
-            .frame(width: CGFloat(actions.count) * 100)
+            .frame(width: CGFloat(filteredActions.count) * 100)
             .overlay(alignment: direction.alignment) {
                 HStack(spacing: 0) {
-                    ForEach(actions) { button in
+                    ForEach(filteredActions) { button in
                         Button(action: {
                             Task {
                                 isEnabled = false

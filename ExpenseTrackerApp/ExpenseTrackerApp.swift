@@ -1,5 +1,5 @@
 //
-//  ExpenseTrackerAppApp.swift
+//  ExpenseTrackerApp.swift
 //  ExpenseTrackerApp
 //
 //  Created by Саша Восколович on 12.02.2024.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ExpenseTrackerAppApp: App {
+struct ExpenseTrackerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

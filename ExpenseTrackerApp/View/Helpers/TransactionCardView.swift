@@ -13,8 +13,11 @@ struct TransactionCardView: View {
     
     var transaction: Transaction
     
+    
+    @State private var shouldDeleteTransaction = false
+    
     var body: some View {
-        SwipeAction(cornerRadius: 10, direction: .trailing) {
+          SwipeAction(cornerRadius: 10, direction: .trailing) {
             HStack(spacing: 12) {
                 Text("\(String(transaction.title.prefix(1)))")
                     .font(.title)

@@ -19,7 +19,7 @@ struct ContentView: View {
     
     var body: some View {
         
-        LockView(lockType: .biometric, lockPin: "", isEnabled: isAppLockEnabled, lockWhenAppGoesBackground: lockWhenAppGoesBackground) {
+         LockView(lockType: .biometric, lockPin: "", isEnabled: isAppLockEnabled, lockWhenAppGoesBackground: lockWhenAppGoesBackground) {
             TabView(selection: $activeTab) {
                 
                 makeTab(for: Recents(), tag: .recents) {

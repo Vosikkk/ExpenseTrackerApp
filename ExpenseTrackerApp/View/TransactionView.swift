@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WidgetKit
 
 struct TransactionView: View {
     
@@ -137,6 +138,9 @@ struct TransactionView: View {
 
         /// Dismiss View
         dismiss()
+        
+        /// Updating
+        WidgetCenter.shared.reloadAllTimelines()
     }
    
     @ViewBuilder

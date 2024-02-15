@@ -27,7 +27,7 @@ struct SwipeAction<Content: View>: View {
             ScrollView(.horizontal) {
                 LazyHStack(spacing: 0) {
                     content
-                        .rotationEffect(.init(degrees: direction == .leading ? -180 : 0))
+                    .rotationEffect(.init(degrees: direction == .leading ? -180 : 0))
                          /// To Take Full Available Space
                         .containerRelativeFrame(.horizontal)
                         .background(scheme == .dark ? .black : .white)
@@ -77,7 +77,7 @@ struct SwipeAction<Content: View>: View {
             .clipShape(.rect(cornerRadius: cornerRadius))
             .rotationEffect(.init(degrees: direction == .leading ? 180 : 0))
         }
-        .allowsTightening(isEnabled)
+        .allowsHitTesting(isEnabled)
         .transition(CustomTransition())
     }
     
@@ -104,7 +104,7 @@ struct SwipeAction<Content: View>: View {
                                 .font(button.iconFont)
                                 .foregroundStyle(button.iconTint)
                                 .frame(width: 100)
-                                .frame(maxWidth: .infinity)
+                                .frame(maxHeight: .infinity)
                                 .contentShape(.rect)
                         })
                         .buttonStyle(.plain)
